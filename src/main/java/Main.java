@@ -33,7 +33,7 @@ public class Main {
         else{
             System.out.println("Please enter 1 or 2 to indicate your sex.");
         }
-        double bac = (oz*(5.14/lb)*r) - (0.015*1);
+        double bac = (oz*(5.14/lb)*r) - (0.015*hours);
         System.out.println(bac);
 
         if(bac<0.08){
